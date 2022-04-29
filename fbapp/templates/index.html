@@ -1,0 +1,24 @@
+...
+
+window.fbAsyncInit = function() {
+
+ FB.init({
+
+   appId      : '{{ your_app_id }}' // collez l'id ici.
+
+   ...
+
+ });
+
+};
+
+
+
+(function(d, s, id) {
+
+ ...
+
+ js.src = "https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&amp;version=v2.9&amp;appId={{ your_app_id }}"; // collez l'id ici
+
+}(document, 'script', 'facebook-jssdk'));
+
